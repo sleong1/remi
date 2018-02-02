@@ -16,8 +16,8 @@ def load_image(image_file):
     data = image.tobytes()
     data = [ord(b) for b in data]
     result = RasterImage()
-    result.width = image.width
-    result.height = image.height
+    result.width = image.size[0]
+    result.height = image.size[1]
     result.data = repr(data)
     return result
 
