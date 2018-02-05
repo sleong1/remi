@@ -33,6 +33,7 @@ class Canvas(Widget):
         self._app = app_instance
         self.type = 'canvas'
 
+
     @property
     def id(self):
         return self.attributes['id']

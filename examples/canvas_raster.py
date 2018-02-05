@@ -8,7 +8,7 @@
 
        http://www.apache.org/licenses/LICENSE-2.0
 
-   Unless required by applicable law or agreed to in writing, software
+   Unless required by applicable law or agreed to in o, software
    distributed under the License is distributed on an "AS IS" BASIS,
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
@@ -40,7 +40,7 @@ class MyApp(App):
         return container
 
     def draw(self, widget):
-        image = load_image('example.png')
+        image = load_image('res/cat_2.png')
         draw(image, self.canvas, position=(10, 10))
         
 if __name__ == "__main__":
